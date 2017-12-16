@@ -31,8 +31,8 @@ module OmniAuth
       option :response_type, "code"
       option :state
       option :response_mode
-      option :display, nil #, [:page, :popup, :touch, :wap]
-      option :prompt, nil #, [:none, :login, :consent, :select_account]
+      option :display, "popup" #, [:page, :popup, :touch, :wap]
+      option :prompt, "none" #, [:none, :login, :consent, :select_account]
       option :hd, nil
       option :max_age
       option :ui_locales
