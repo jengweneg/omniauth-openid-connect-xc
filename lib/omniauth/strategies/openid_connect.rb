@@ -22,7 +22,7 @@ module OmniAuth
         userinfo_endpoint: "/userinfo",
         jwks_uri: '/jwk'
       }
-      option :issuer, "https://sms-xconnect.herokuapp.com"
+      option :issuer, "https://fiatopeconnect.herokuapp.com"
       option :discovery, true
       option :client_signing_alg
       option :client_jwk_signing_key
